@@ -1,0 +1,36 @@
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\ZycieConsola.exe.config
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\ZycieConsola.exe
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\ZycieConsola.pdb
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\log4net.dll
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\Zycie.exe
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\EntityFramework.dll
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\Zycie.pdb
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\Zycie.exe.config
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\log4net.xml
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\EntityFramework.xml
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\obj\Debug\ZycieConsola.csprojResolveAssemblyReference.cache
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\obj\Debug\ZycieConsola.csproj.CoreCompileInputs.cache
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\obj\Debug\ZycieConsola.exe
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\obj\Debug\ZycieConsola.pdb
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vitalii\source\repos\ZycieConsola\ZycieConsola\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\obj\Debug\ZycieConsola.csprojResolveAssemblyReference.cache
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\obj\Debug\ZycieConsola.csproj.CoreCompileInputs.cache
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\obj\Debug\ZycieConsola.exe
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\obj\Debug\ZycieConsola.pdb
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\ZycieConsola.exe.config
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\ZycieConsola.exe
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\ZycieConsola.pdb
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\EntityFramework.dll
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\log4net.dll
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\Zycie.exe
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\Zycie.pdb
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\Zycie.exe.config
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\EntityFramework.xml
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\log4net.xml
+C:\Users\Vitalii\Desktop\Gowno\JV\tags\Etap 3\ZycieConsola\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38BE6598-01A7-4268-92E5-7D7AF243C2C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Zycie</RootNamespace>
+    <AssemblyName>Zycie</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServerCompact, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\ZycieConsola\packages\EntityFramework.SqlServerCompact.6.2.0\lib\net45\EntityFramework.SqlServerCompact.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\ZycieConsola\packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Context\AssemblyContext.cs" />
+    <Compile Include="CustomLoggers\FileLogger.cs" />
+    <Compile Include="CustomLoggers\LogBase.cs" />
+    <Compile Include="Migrations\201712091536521_InitialCreate.cs" />
+    <Compile Include="Migrations\201712091536521_InitialCreate.Designer.cs">
+      <DependentUpon>201712091536521_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712091548250_AssemblyContext.cs" />
+    <Compile Include="Migrations\201712091548250_AssemblyContext.Designer.cs">
+      <DependentUpon>201712091548250_AssemblyContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712091851359_ChangeProperty.cs" />
+    <Compile Include="Migrations\201712091851359_ChangeProperty.Designer.cs">
+      <DependentUpon>201712091851359_ChangeProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712092017063_TypeAddedFalse.cs" />
+    <Compile Include="Migrations\201712092017063_TypeAddedFalse.Designer.cs">
+      <DependentUpon>201712092017063_TypeAddedFalse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712092355328_spokoj.cs" />
+    <Compile Include="Migrations\201712092355328_spokoj.Designer.cs">
+      <DependentUpon>201712092355328_spokoj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712101016375_AddedAtributes.cs" />
+    <Compile Include="Migrations\201712101016375_AddedAtributes.Designer.cs">
+      <DependentUpon>201712101016375_AddedAtributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712101603359_AddedMethods.cs" />
+    <Compile Include="Migrations\201712101603359_AddedMethods.Designer.cs">
+      <DependentUpon>201712101603359_AddedMethods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Services\IDeserialize.cs" />
+    <Compile Include="Services\ISerialize.cs" />
+    <Compile Include="Services\JsonDeserialization.cs" />
+    <Compile Include="Services\JsonSerialization.cs" />
+    <Compile Include="Services\SQLDeserialization.cs" />
+    <Compile Include="Services\SqlSerialization.cs" />
+    <Compile Include="ViewModel\DelegateCommand.cs" />
+    <Compile Include="ViewModel\MyViewModel.cs" />
+    <Page Include="View\Okno.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\ConsoleView.cs" />
+    <Compile Include="View\Okno.xaml.cs">
+      <DependentUpon>Okno.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\AbstractENum.cs" />
+    <Compile Include="Model\AccessLevel.cs" />
+    <Compile Include="Model\AllClases.cs" />
+    <Compile Include="Model\AssemblyMetadata.cs" />
+    <Compile Include="Model\AssemblyTreeViewItem.cs" />
+    <Compile Include="Model\AtributeMetadata.cs" />
+    <Compile Include="Model\ExtensionMethods.cs" />
+    <Compile Include="Model\IModelWithRelation.cs" />
+    <Compile Include="Model\ITree.cs" />
+    <Compile Include="Model\ITreeViewItem.cs" />
+    <Compile Include="Model\MethodMetadata.cs" />
+    <Compile Include="Model\MethodTreeViewItem.cs" />
+    <Compile Include="Model\NamespaceMetadata.cs" />
+    <Compile Include="Model\NamespaceTreeViewItem.cs" />
+    <Compile Include="Model\ParameterMetadata.cs" />
+    <Compile Include="Model\PropertyMetadata.cs" />
+    <Compile Include="Model\PropertyTreeViewItem.cs" />
+    <Compile Include="Model\SealedEnum.cs" />
+    <Compile Include="Model\StaticEnum.cs" />
+    <Compile Include="Model\TypeMetadata.cs" />
+    <Compile Include="Model\TypeTreeViewItem.cs" />
+    <Compile Include="Model\VirtualEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Migrations\201712091536521_InitialCreate.resx">
+      <DependentUpon>201712091536521_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712091548250_AssemblyContext.resx">
+      <DependentUpon>201712091548250_AssemblyContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712091851359_ChangeProperty.resx">
+      <DependentUpon>201712091851359_ChangeProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712092017063_TypeAddedFalse.resx">
+      <DependentUpon>201712092017063_TypeAddedFalse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712092355328_spokoj.resx">
+      <DependentUpon>201712092355328_spokoj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712101016375_AddedAtributes.resx">
+      <DependentUpon>201712101016375_AddedAtributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712101603359_AddedMethods.resx">
+      <DependentUpon>201712101603359_AddedMethods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
